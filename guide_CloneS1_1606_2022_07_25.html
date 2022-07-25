@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+      <html>
+      <body style="width: 880px;margin:auto">
+        
+            <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+
+              
+        <link el="apple-touch-icon" rel="stylesheet" href="apple-touch-icon.png">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="twitter:card" content="summary">
+        <meta property="fb:app_id" content="">
+        <meta property="og:site_name" content="LIKE!NEWS">
+        <meta property="og:title" content="LIKE!NEWS">
+        <meta property="og:description" content="">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://likev2.sep-tech.net/SepTech/CloneS1_1606">
+        <meta property="og:image" content="https://likev2.sep-tech.net/images/common/ogp_image.png">
+        <meta property="og:locale" content="ja_JP">
+        
+
+              
+          <link rel="stylesheet" href="./CloneS1_1606_2022_07_25_files/css/bootstrap.min.css"/>
+          <link rel="stylesheet" href="./CloneS1_1606_2022_07_25_files/css/article-header.min.css"/>
+          <link rel="stylesheet" href='https://fonts.googleapis.com/icon?family=Material+Icons'/>
+          <meta name='viewport' content='width=device-width, initial-scale=1'>
+          
+
+              
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://www.instagram.com/embed.js"></script>
+          <script src="./CloneS1_1606_2022_07_25_files/js/jquery.event.move.min.js"></script>
+
+              <script src="./CloneS1_1606_2022_07_25_files/js/article-header.min.js"></script>
+
+              <script src="./CloneS1_1606_2022_07_25_files/js/swiper.min.js"/></script>
+
+              <script src="./CloneS1_1606_2022_07_25_files/js/jquery.twentytwenty.min.js"/></script>
+
+              <script>
+          var accounts = ["UA-60143869-1","UA-106134057-3",""];
+          (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+              (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+              m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+          })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+           accounts.forEach((el, idx) => {
+              const gaName = 'gaInfo' + idx
+              ga('create', el, {name: gaName});
+              ga(gaName + '.send', 'pageview');
+            })
+          </script>
+
+              
+
+              <style>
+             #survey .question-template {
+             border-top:3px solid #ff5a5d;
+           }
+             #survey #header {
+               border-top: 15px solid #ffffff;
+             }
+             .option-input:checked {
+               background: #ffffff;
+             }
+             .option-input:checked::after {
+               background: #ffffff;
+             }
+             #survey #thanks  {
+               background-color: #ffffff;
+             }
+
+             #survey #thanks .inner {
+               background-color: rgba(255, 255, 255, .5);
+               padding-top: 15px;
+             }
+             #survey #send button {
+               background-color: #fe7676;
+             }
+             #survey footer {
+               background-color: #ffffff;
+             }
+
+             .extension-articles {
+               margin: 0px;
+               background-color: undefined;
+             }
+
+             #survey .question-template.mix-survey-template {
+               margin: 0px;
+             }
+             .question-position.article-position {
+               margin-bottom: 60px;
+             }</style>
+
+              <script>
+          function redirect(t){navigator.userAgent.match(/Android/i)&&(document.location.href=t),window.location.replace(t)}function makingRedirectUrl(t,e){var a=SPEC_PARAMS?JSON.parse(standardizeScript(SPEC_PARAMS)):[];if(t=t?standardizeScript(t):"",a.toString())for(var n=0;n<a.length;n++){var r=a[n];if(e&&2===e.split("=").length){var i=e.split("=")[0],c=e.split("=")[1],o=i+"="+c,l=t.match(/#([^#]+)$/),u=t.match(/\?([^\?]+)$/)?"&":"?",s=new URL(t),d=s.search?splitParams(s.search):null;if(d)if(d.filter(function(t){return t.key===r}).length>0)for(var p=0;p<d.length;p++)d[p].key===r&&(t=t.replaceAll(d[p].key+"="+d[p].value,d[p].key+"="+c));else t.includes(o)||(l&&(t=t.replace(l[0],"")),t+=u+o,l&&(t+=l[0]));else l&&(t=t.replace(l[0],"")),t+=u+o,l&&(t+=l[0])}}return t}function isEmpty(t){return void 0===t||("string"==typeof x&&""==trim(t)||(!!(Array.isArray(t)&&t.length<=0)||"object"==typeof t&&0===Object.keys(t).length))}jQuery(function(t){t(document).on("click","#submit",function(e){t("#csrfToken");var a=!0,n=[];if(t("#error").html(""),t("section[id^=question_]").each(function(){var e=t(this).data("index"),r=t(this).data("qidx"),i=t(this).hasClass("required"),c=t(this).find(".form-area select, input:checkbox, input:radio, textarea"),o={question_index:e};switch(c.eq(0)[0].type){case"select-one":o.type=1,""!==c.val()&&(o.answer_content=[c.val()]);break;case"radio":o.type=1,t(this).find("input:radio").is(":checked")?o.answer_content=[t(this).find("input:radio:checked").val()]:o.answer_content=[];break;case"checkbox":o.type=2,t(this).find("input:checkbox").is(":checked")?o.answer_content=t(this).find("input:checkbox:checked").map(function(){return t(this).val()}).get():o.answer_content=[];break;case"textarea":o.type=3,""!==c.val()&&(o.answer_content=[c.val()])}i&&isEmpty(o.answer_content)&&(a=!1,t("#error").append('<p class="error_'+(e+1)+'">質問'+r+". の回答が未選択です。</p>")),n.push(o)}),a){var r=t(this),i=r.attr("data-gaevent-label");if(i)i+=URL_TAG;r.attr("href")?r.attr("href"):window.location.href,r.attr("target")&&r.attr("target");var c=r.attr("data-gaevent-category")?r.attr("data-gaevent-category"):"survey",o=r.attr("data-gaevent-action")?r.attr("data-gaevent-action"):"submit",l=r.attr("data-gaevent-value")?r.attr("data-gaevent-value"):"1";r.attr("gunosy")&&r.attr("gunosy"),r.attr("articleId");if(!isEmpty(REDIRECT_URL))try{ga("send","event",c,o,i,l,{hitCallback:function(){}}),window.location.href=REDIRECT_URL}catch(e){window.location.href=REDIRECT_URL}e.preventDefault()}else e.preventDefault();return a}),t(document).ready(function(){t("section[id^=question_] h3").each(function(){t(this).html(linkify(t(this).html()))}),t(window).scroll(function(e){var a=t(window).scrollTop()/(t(document).height()-t(window).height());!function(e){var a=!1;if(t("#uniqueFloatingAdv").length>0){var n=t("#uniqueFloatingAdv").find("#floatingDiv").attr("data-showupat"),r=t("#uniqueFloatingAdv").find("#floatingDiv").attr("data-position");"bottom"===r&&e>=n&&e<=95&&(a=!0),"top"===r&&e>=n&&(a=!0),!1===a?t("#uniqueFloatingAdv").hide():t("#uniqueFloatingAdv").show()}}(Math.round(100*a))})})});var URL_REGEX=/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gi;function linkify(t){return t.replace(URL_REGEX,function(t){return'<a href="'+t+'" target="_blank">'+t+"</a>"})}function standardizeScript(t){return t.replaceAll("&lt;","<").replaceAll("&gt;",">").replaceAll("&quot;",'"').replaceAll("&amp;","&").replaceAll("&apos;","'")}function renderScript(t){var e=buildDOMTree(standardizeScript(t));makeScriptTagsExecutable(e),document.body.appendChild(e)}function buildDOMTree(t){var e=document.createElement("div");return e.innerHTML=t,e}function makeScriptTagsExecutable(t){return t.querySelectorAll("script").forEach(function(e,a,n){var r=document.createElement("script"),i=document.createTextNode(e.innerHTML);r.appendChild(i);for(var c=0;c<e.attributes.length;c++){var o=e.attributes[c];r.setAttribute(o.name,o.value)}t.replaceChild(r,e)}),t}var splitParams=function(t){var e=t.split("/")[0].split("?")[1].split("&"),a=null,n=[];return e.forEach(function(t){a=t.split("="),n.push({key:a[0],value:a[1]})}),n};
+          </script>
+
+            </head>
+        <div data-v-d441db44="" id="change-guide-raw-content"><div data-v-d441db44="" class="guide-header-content"><h3 data-v-d441db44="" style="font-weight: 800; font-size: 15pt;">オープングラフ用の情報を変更する</h3></div> <img data-v-d441db44="" id="raw-content-img" src="./CloneS1_1606_2022_07_25_files/img/raw_info_img.png" alt=""> <p data-v-d441db44="" class="discription-text">HTMLデータに変更するべき所</p> <div data-v-d441db44="" class="guide-raw-content"><p data-v-d441db44="">&lt;meta property="<span data-v-d441db44="" class="wrap-feature">og:site_name</span>" content="LIKE!NEWS"&gt;</p> <p data-v-d441db44="">&lt;meta property="<span data-v-d441db44="" class="wrap-feature">og:title"</span> content="LIKE!NEWS"&gt;</p> <p data-v-d441db44="">&lt;meta property="og:description" content=""&gt;</p> <p data-v-d441db44="">&lt;meta property="og:type" content="article"&gt;</p> <p data-v-d441db44="">&lt;meta property="og:url" content="<span data-v-d441db44="" class="wrap-feature">https://likev2.sep-tech.net/SepTech/CloneS1_1606</span>"&gt;</p> <p data-v-d441db44="">&lt;meta property="og:image" content="<span data-v-d441db44="" class="wrap-feature">https://likev2.sep-tech.net/images/common/ogp_image.png</span>"&gt;</p> <p data-v-d441db44="">&lt;meta property="og:locale" content="ja_JP"&gt;</p></div> <br data-v-d441db44=""></div>
+        <div data-v-d441db44="" id="send-data-to-server"><div data-v-d441db44="" class="guide-header-content"><h3 data-v-d441db44="" style="font-weight: 800; font-size: 15pt;">グーグルアナリティクスへトラッキングデータを送信するため、ドメイン情報を変更する</h3></div> <p data-v-d441db44="" class="discription-text">HTMLデータに変更するべき所</p> <p data-v-d441db44="" class="note-text">※グーグルアナリティクスへトラッキングしないページに対して、こちらのステップを省略する</p> <div data-v-d441db44="" class="guide-raw-content"><p data-v-d441db44="" style="color: green;">&lt;!-- TODO: url tag --&gt;</p> <p data-v-d441db44="">&lt;input type="hidden" name="urlTag" id="urlTag" value=""&gt;</p> <p data-v-d441db44="">&lt;input type="hidden" name="fullBaseUrl" id="fullBaseUrl" value="<span data-v-d441db44="" class="wrap-feature">https://likev2.sep-tech.net/SepTech/CloneS1_1606</span>"/&gt;</p></div> <br data-v-d441db44=""></div>
+        <div data-v-d441db44="" id="change-button-link"><div data-v-d441db44="" class="guide-header-content"><div data-v-d441db44="" class="blockBox list-unstyled" style="background-color: transparent;"><h3 data-v-d441db44="" style="font-weight: 800; font-size: 15pt;">記事の各ボタン・リンク先を変更する</h3></div></div> <p data-v-d441db44="" class="discription-text">HTMLデータに変更するべき所</p> <div data-v-d441db44=""><div data-v-d441db44="" class="guide-raw-content"><p data-v-d441db44="">
+                        &lt;a href="<span data-v-d441db44="" class="wrap-feature">http://news.like.jp"</span> title="クリック" class="roundButton blockBox likecmsColorPicker gaClickEvent" style="background-color: #fe7676; color: #ffffff;" data-gaevent-category="button" data-gaevent-action="click" data-gaevent-label="Article_GGADS3" data-gaevent-value="1" fb-tracking="false" ga-tracking-code="gtag('event', 'conversion', {'send_to': 'AW-652005994/cqOtCNq5zcwBEOqk87YC'});" ga-tracking="true"&gt;GA3_GGAS: Config LinkToolButton &lt;/a&gt;
+                      </p></div> <div data-v-d441db44="" class="old-html-dom"><span data-v-d441db44=""><div class="wrap-roundButton"><a href="http://news.like.jp" title="クリック" class="roundButton blockBox likecmsColorPicker gaClickEvent" style="background-color: #fe7676; color: #ffffff;" data-gaevent-category="button" data-gaevent-action="click" data-gaevent-label="Article_GGADS3" data-gaevent-value="1" fb-tracking="false" ga-tracking-code="gtag('event', 'conversion', {'send_to': 'AW-652005994/cqOtCNq5zcwBEOqk87YC'});" ga-tracking="true">GA3_GGAS: Config LinkToolButton </a></div></span></div></div><div data-v-d441db44=""><div data-v-d441db44="" class="guide-raw-content"><p data-v-d441db44="">
+                        &lt;a href="<span data-v-d441db44="" class="wrap-feature">http://news.like.jp"</span> title="クリック" class="roundButton blockBox likecmsColorPicker gaClickEvent" style="background-color: #fe7676; color: #ffffff;" data-gaevent-category="button" data-gaevent-action="click" data-gaevent-label="Q_GGADS1" data-gaevent-value="1" fb-tracking="false" ga-tracking-code="gtag('event', 'conversion', {'send_to': 'AW-652005994/cqOtCNq5zcwBEOqk87YC'});" ga-tracking="true"&gt;GA1_GGADs: Config LinkToolButton &lt;/a&gt;
+                      </p></div> <div data-v-d441db44="" class="old-html-dom"><span data-v-d441db44=""><div class="wrap-roundButton"><a href="http://news.like.jp" title="クリック" class="roundButton blockBox likecmsColorPicker gaClickEvent" style="background-color: #fe7676; color: #ffffff;" data-gaevent-category="button" data-gaevent-action="click" data-gaevent-label="Q_GGADS1" data-gaevent-value="1" fb-tracking="false" ga-tracking-code="gtag('event', 'conversion', {'send_to': 'AW-652005994/cqOtCNq5zcwBEOqk87YC'});" ga-tracking="true">GA1_GGADs: Config LinkToolButton </a></div></span></div></div><div data-v-d441db44=""><div data-v-d441db44="" class="guide-raw-content"><p data-v-d441db44="">
+                        &lt;a href="<span data-v-d441db44="" class="wrap-feature">http://news.like.jp"</span> title="クリック" class="initCheckBox squareButton blockBox likecmsColorPicker gaClickEvent" style="background-color: #81ccae; color: #ffffff;" data-gaevent-category="button" data-gaevent-action="click" data-gaevent-label="Ans_GGADs2" data-gaevent-value="1" fb-tracking="false" ga-tracking-code="gtag('event', 'conversion', {'send_to': 'AW-652005994/cqOtCNq5zcwBEOqk87YC'});" ga-tracking="true" ob-tracking-code="obApi('track', 'PAGE_VIEW');" ob-tracking="true"&gt;GA2_GGADS_Outbrain: Config LinkToolButton &lt;/a&gt;
+                      </p></div> <div data-v-d441db44="" class="old-html-dom"><span data-v-d441db44=""><div class="wrap-roundButton"><a href="http://news.like.jp" title="クリック" class="initCheckBox squareButton blockBox likecmsColorPicker gaClickEvent" style="background-color: #81ccae; color: #ffffff;" data-gaevent-category="button" data-gaevent-action="click" data-gaevent-label="Ans_GGADs2" data-gaevent-value="1" fb-tracking="false" ga-tracking-code="gtag('event', 'conversion', {'send_to': 'AW-652005994/cqOtCNq5zcwBEOqk87YC'});" ga-tracking="true" ob-tracking-code="obApi('track', 'PAGE_VIEW');" ob-tracking="true">GA2_GGADS_Outbrain: Config LinkToolButton </a></div></span></div></div> <br data-v-d441db44=""></div>
+        <div data-v-d441db44="" id="change-title-html-page"><div data-v-d441db44="" class="guide-header-content"><h3 data-v-d441db44="" style="font-weight: 800; font-size: 15pt;">ヘッダータイトルを変更する</h3></div> <img data-v-d441db44="" id="title-img" src="./CloneS1_1606_2022_07_25_files/img/detail_title_img.png" alt=""> <p data-v-d441db44="" class="discription-text">HTMLデータに変更するべき所</p> <div data-v-d441db44="" class="guide-raw-content"><p data-v-d441db44="">&lt;html&gt;</p> <p data-v-d441db44=""><span data-v-d441db44="" class="wrap-feature">&lt;title&gt;&lt;/title&gt;</span></p> <p data-v-d441db44="">&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;</p></div> <br data-v-d441db44=""></div>
+        <div data-v-d441db44="" id="change-GA-information"><div data-v-d441db44="" class="guide-header-content"><h3 data-v-d441db44="" style="font-weight: 800; font-size: 15pt;">グーグルアナリティクス トラッキングするためのIDを変更する</h3></div> <p data-v-d441db44="" class="discription-text">HTMLデータに変更するべき所</p> <div data-v-d441db44="" class="guide-raw-content"><p data-v-d441db44="" style="color: green;">&lt;!-- Google Analytics Tracking Tag --&gt;</p> <p data-v-d441db44="">&lt;script&gt;<br data-v-d441db44="">
+                      var account = <span data-v-d441db44="" class="wrap-feature">[
+  "UA-60143869-1",
+  "UA-106134057-3",
+  ""
+]</span>;<br data-v-d441db44="">
+                      (function(i, s, o, g, r, a, m) {<br data-v-d441db44="">
+                        i['GoogleAnalyticsObject'] = r;<br data-v-d441db44="">
+                        i[r] = i[r] || function() {<br data-v-d441db44="">
+                        (i[r].q = i[r].q || []).push(arguments)<br data-v-d441db44="">
+                        }, i[r].l = 1 * new Date();<br data-v-d441db44="">
+                        a = s.createElement(o),<br data-v-d441db44="">
+                        m = s.getElementsByTagName(o)[0];<br data-v-d441db44="">
+                        a.async = 1;<br data-v-d441db44="">
+                        a.src = g;<br data-v-d441db44="">
+                        m.parentNode.insertBefore(a, m)<br data-v-d441db44="">
+                      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');<br data-v-d441db44="">
+                      account.forEach((el, idx) =&gt; {<br data-v-d441db44="">
+                      const gaName = `gaInfo` + idx<br data-v-d441db44="">
+                      ga('create', el, {name: gaName});<br data-v-d441db44="">
+                      ga(`${gaName}.send`, 'pageview');<br data-v-d441db44="">
+                      })<br data-v-d441db44="">
+                      &lt;/script&gt;<br data-v-d441db44=""></p></div> <div data-v-d441db44="" class="guide-raw-content"><p data-v-d441db44="">&lt;input type="hidden" name="gaTrackingId" id="gaTrackingId" value = "<span data-v-d441db44="" class="wrap-feature">[
+  "UA-60143869-1",
+  "UA-106134057-3",
+  ""
+]</span>"/&gt;</p></div> <br data-v-d441db44=""></div>
+        <div data-v-d441db44="" id="change-image-to-GA-link-button"><div data-v-d441db44="" class="guide-header-content"><h3 data-v-d441db44="" style="font-weight: 800; font-size: 15pt;">画像ボタンにグーグルアナリティクス イベントを追加する</h3></div> <!----> <div data-v-d441db44=""> <div data-v-d441db44=""></div><div data-v-d441db44=""></div><div data-v-d441db44=""></div> </div><div data-v-d441db44=""> <div data-v-d441db44=""></div> </div> <!----> <br data-v-d441db44=""></div>
+        <div data-v-d441db44="" id="change-submit-survey-link"><div data-v-d441db44="" class="guide-header-content"><h3 data-v-d441db44="" style="font-weight: 800; font-size: 15pt;">アンケートの送信した後のリンク先を変更する</h3></div> <div data-v-d441db44="" class="guide-raw-content"><p data-v-d441db44="">&lt;script&gt;<br data-v-d441db44="">
+                             var ARTICLE_ID =   "<span data-v-d441db44="">4322686149773627392 </span>";<br data-v-d441db44="">
+                             var REDIRECT_URL = "<span data-v-d441db44="" class="wrap-feature">https://dantri.com.vn                 </span>";<br data-v-d441db44="">
+                             var ABLE_TO_CHANGE_PARAM = "<span data-v-d441db44="">false</span>";<br data-v-d441db44="">
+                             var URL_TAG = "";<br data-v-d441db44="">
+                             var IS_ADD_SURVEY_BUTTON_TAG = <span data-v-d441db44="">0</span>;<br data-v-d441db44="">
+                             var SURVEY_BUTTON_TAG  = "<span data-v-d441db44="">IS_ADD_SURVEY_BUTTON_TAG === "1" ? :''</span>";<br data-v-d441db44="">
+                             var URL_PARAM =    "<span data-v-d441db44=""></span>";<br data-v-d441db44="">
+                             var SPEC_PARAMS =   "<span data-v-d441db44=""></span>";<br data-v-d441db44="">
+                     &lt;/script&gt;<br data-v-d441db44=""></p>
+                     &lt;div class="clearfix" id="send"&gt;&lt;button class="roundButton blockBox likecmsColorPicker gaClickEvent" title="Submit button" data-gaevent-category="submit" data-gaevent-action="submit" data-gaevent-label="survey_submit" data-gaevent-value="1" id="submit" style="background-color: <span data-v-d441db44="">#fe7676</span>" articleid=<span data-v-d441db44="">4322686149773627392</span>&gt;Submit button/&lt;/button&gt;&lt;/div&gt;
+                   </div> <div data-v-d441db44="" id="send" class="clearfix"><button data-v-d441db44="" title="Submit button" data-gaevent-category="submit" data-gaevent-action="submit" data-gaevent-label="survey_submit" data-gaevent-value="1" id="submit" articleid="4322686149773627392" class="roundButton blockBox likecmsColorPicker gaClickEvent" style="background-color: rgb(254, 118, 118); border: none;">
+                     Submit Survey button</button></div></div>
+      </body>
+      </html>
