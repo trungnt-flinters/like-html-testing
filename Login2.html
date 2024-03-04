@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form 2</title>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-54C4FK4F');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54C4FK4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <h2>Login Form 2</h2>
+    <form id="loginForm">
+        <div>
+		<br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+		</br>
+        </div>
+        <div>
+		<br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </br>
+		</div>
+        <div>
+		<br>
+            <button type="submit">Login</button>
+        </br>
+		</div>
+    </form>
+
+    <script>
+        document.getElementById('loginForm').onsubmit = function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            // Simulate login logic
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            // Normally, you'd send this data to a server to verify the user's credentials
+            // This is just a simulation for demonstration purposes
+            if(email && password) { // Simple check to simulate "logging in"
+                // Redirect to the submit form
+                window.location.href = 'Submit_Form.html'; // Redirect to the submit form page
+            } else {
+                alert('Please enter both email and password.');
+            }
+        };
+    </script>
+</body>
+</html>
